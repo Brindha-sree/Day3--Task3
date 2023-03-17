@@ -1,0 +1,172 @@
+
+                        
+
+
+                                              JSON Iterate for loop:
+
+var person={
+    "name":"Brindha",
+    "age":25,
+    "gender":"female",
+    "Aadhar":23987193838,
+};
+console.log(person);
+var person={
+    "Hobbies":["readingBook","listeningMusic","chatWithFriends"],
+}
+for (var i=0; i<person.Hobbies.length;i++){
+    console.log(person.Hobbies[i]);
+
+};
+ 
+                             
+                              
+
+
+                                        JSON Iterate for in loop:
+
+var person={
+    "name":"Brindha",
+    "age":25,
+    "gender":"female",
+    "Aadhar":23987193838,
+};
+for(let x in person){
+    console.log(x+ ":" +person[x]);
+}
+
+                             
+
+
+                                     JSON Iterate for of loop:
+
+
+var data = [{
+    "VERSION": "1001.10",
+    "JOBNAME": "FSD",
+    "ID":"4578921",
+    "IP":"123.564.88",
+    "MAC": "172.124.12",
+    "NEWUSER": "3"
+  }];
+  console.log(data);
+for(let x of data){
+    console.log(x+ ":" +data[x])
+}
+
+                             
+                                  
+
+
+                                   JSON Iterate for each loop:
+
+var person={
+    "name":"Brindha",
+    "age":25,
+    "gender":"female",
+    "Aadhar":23987193838,
+};
+Object.keys(person).forEach(function(key){
+    console.log('key :' + key + ' , value :' + person[key])
+})
+
+
+
+
+                                                       
+
+                                      2.Resume data in JSON format
+
+
+
+
+var resume={
+  "name":"brindha",
+  "dob":"25.03.1988",
+  "Languages":"Tamil,English,Telugu",
+  "Religion":"Hindu",
+  "mail":"eb@gmail.com",
+};
+console.log(resume)
+var qualification={
+  "msc":"ns college-79",
+  "bsc":"tcas college-57",
+};
+for(var i=0;i<qualification.length;i++){
+  console.log(qualification[i])
+}
+  var software={
+    "testing":"qtp",
+    "os":"windows",
+  };
+  console.log(software)
+  var exp={
+    "deo":"Collectorate",
+    "teacher":"nak school",
+  };
+  console.log(exp)
+  var declare={
+    "information":"thank you",
+  };
+  console.log(declare)
+  
+
+                         
+
+
+                                      3. Difference between Windows,screen and document in javascript
+
+          
+
+         The windows and document objects are described in the 
+     DOM Tree(Document Object Model Tree).Window and objects have  
+    different properties , methods, and functionality .We can access a 
+    document object either using windows. Document  property or using 
+    document object directly as window is global object. 
+    Ex: windows have open and closed Button. 
+    But document don’t have that buttons.
+
+                                     Windows
+
+       • Windows is the global object.
+       •The windows is the topmost loaded into the browser.
+       •It is like a main tab of the browser.	
+       •Example: Youtube
+       •Left Side : Front Button , Back Button and Refresh Button.
+       •Right Side: Install youtube click Button, Share this Page Click Button and Bookmark this click Button.
+       •It has open click button , close button , Minimize and maximize button.        
+       •Javascript code are included in windows object.    
+
+                                   
+
+                                        Screen 
+          
+
+           • The screen is users manual.
+           • Users can see in the screen .
+           • It has height and width.
+   
+ 
+
+                                 Document:
+
+       •The document Object is inside of the windows object.
+       •It is like a subtitle. It is a sub menu of the windows browser.
+       •It have  image, text, numbers and all the objects .
+       •Document have include html pages. Like HTML Tags Head, Body, Title
+       •Document objects have links and url…
+       •Document object have elements and tree structure.
+       •Document object have many property elements.
+       •Documents are stored in many objects. It is called (DOM Tree).Document Object Model.
+
+
+                             
+                                      
+
+                    
+
+                         
+
+                                             
+	
+  
